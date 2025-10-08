@@ -10,3 +10,28 @@ This is my journal of the design and building process of **polyate**.
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/211).
 
 
+## 10/8/2025 - Started voice card design  
+
+First step - Voice card design.
+
+After a bunch of research and being mainly inspired by the [Polykit-X voice card](https://github.com/polykit/polykit-x-voice-card), I've decided to have the following functions:
+<br>
+- A VCO with saw, triangle, and pulse wave outputs
+- VCAs for blending, envelope and panning
+- ADSR envelope
+- A velocity controlled parameter (customisable)
+- Hard and Soft VCO sync
+- Wavefolder
+- State-variable filter (blended LP/BP/HP)
+- Low Frequency Oscillator
+- Stereo output
+
+Now to actually implement it...
+
+I particularly liked the modularity of the voice cards' connection to the main board, see the [creator's youtube channel](https://www.youtube.com/@polykit) for more detail.
+I plan to use a similar connection.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwNSwicHVyIjoiYmxvYl9pZCJ9fQ==--e2ed638e0e17657151ad936f752229fc755ce630/image.png)
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEwNiwicHVyIjoiYmxvYl9pZCJ9fQ==--6ef7ccce7f62b4d22d70d2952857e654d2d84ce8/image.png)
+  
+
